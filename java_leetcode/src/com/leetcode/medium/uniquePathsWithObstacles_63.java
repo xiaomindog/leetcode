@@ -1,6 +1,6 @@
 package com.leetcode.medium;
 
-public class uniquePathsWithObstacles_62 {
+public class uniquePathsWithObstacles_63 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if (obstacleGrid.length == 0) return 0;
         int m = obstacleGrid.length;
