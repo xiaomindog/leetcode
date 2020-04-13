@@ -15,7 +15,54 @@ public class pathSum_437 {
         }
     }
 
+    //思路1 双重递归
+    //先序遍历每一个结点，在以每一个节点作为起始节点递归查找，  时间复杂度高，有很多重复的操作
+    private int num = 0;
+
     public int pathSum(TreeNode root, int sum) {
-        return 0;
+        if (root == null) return 0;
+        cal_sum(root, sum);
+        pathSum(root.left, sum);
+        pathSum(root.right, sum);
+        return num;
+
+    }
+
+    public void cal_sum(TreeNode root, int sum) {
+        if (root == null) return;
+        sum -= root.val;
+        if (sum == 0) {
+            num++;
+        }
+        cal_sum(root.left, sum);
+        cal_sum(root.right, sum);
+    }
+
+    //思路2
+    /*核心：每个节点到根节点的路径是唯一的
+     * 1.用一维数组保存当前节点到根节点的所有路径
+     * 2.用一个标记表示当前路径的终点
+     * 3.先序遍历所有节点
+     * */
+    public int pathSum_2(TreeNode root, int sum) {
+        return cal_sum_2(root, sum, new int[1000], 0);
+    }
+
+    public int cal_sum_2(TreeNode root, int sum, int arry[], int p) {
+
+
+        if (root == null) return 0;
+        int n = (root.val == sum ? 1 : 0);
+        int cur = root.val;
+        for (int i = p - 1; i >= 0; i--) {
+            cur += arry[i];
+            if (cur == sum) {
+                n++;
+            }
+        }
+        arry[p] = root.val;
+        int n1 = cal_sum_2(root.left, sum, arry, p + 1);
+        int n2 = cal_sum_2(root.right, sum, arry, p + 1);
+        return n + n1 + n2;
     }
 }
