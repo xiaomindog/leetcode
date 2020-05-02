@@ -8,15 +8,28 @@ public class rob_198 {
         int f1 = 0, f2 = 0;//f1 为前1天最大 f2为前2天最大
         int[] max = new int[nums.length]; //定义一个max矩阵
         for (int i = 0; i < nums.length; i++) {
-            if(i<2) {
+            if (i < 2) {
                 f2 = nums[i]; //i<2 没有前2天的值
-            }else {
-                f2 =max[i-2]+nums[i];
+            } else {
+                f2 = max[i - 2] + nums[i];
             }
             int max_f1f2 = Math.max(f2, f1);
             max[i] = max_f1f2;
             f1 = max_f1f2; //f1记录下一个i的前一天的最大
         }
         return max[nums.length - 1];
+    }
+
+    public int rob_2(int[] nums) {
+        if (nums.length <= 0)
+            return 0;
+
+        int[] max = new int[nums.length + 2];
+        max[0] = 0;
+        max[1] = 0;
+        for (int i = 2; i < nums.length + 2; i++) {
+            max[i] = Math.max(max[i-1],max[i-2]+nums[i-2]);
+        }
+        return max[max.length-1];
     }
 }
