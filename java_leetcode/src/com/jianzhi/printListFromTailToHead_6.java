@@ -1,7 +1,8 @@
 package com.jianzhi;
 
 import java.util.ArrayList;
-
+import java.util.List;
+import java.util.Stack;
 
 
 public class printListFromTailToHead_6 {
@@ -13,12 +14,13 @@ public class printListFromTailToHead_6 {
             this.val = val;
         }
     }
+
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
         ListNode p = listNode;
-        while (p!=null){
-            arrayList.add(0,p.val);
-            p=p.next;
+        while (p != null) {
+            arrayList.add(0, p.val);
+            p = p.next;
         }
         return arrayList;
     }

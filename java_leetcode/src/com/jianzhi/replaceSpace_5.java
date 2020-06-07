@@ -28,6 +28,10 @@ public class replaceSpace_5 {
         return str.toString();
     }
 
+
+
+
+
     public static void main(String[] args) {
         StringBuffer str = new StringBuffer("we are friend");
 
