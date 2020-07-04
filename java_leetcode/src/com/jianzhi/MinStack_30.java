@@ -27,8 +27,7 @@ public class MinStack_30 {
     }
 
     public void pop() {
-        s.pop();
-        m.pop();
+        if (s.pop().equals(m.peek())) m.pop();
     }
 
     public int top() {
