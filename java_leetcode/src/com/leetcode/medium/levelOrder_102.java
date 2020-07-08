@@ -1,10 +1,9 @@
-package com.leetcode.easy;
+package com.leetcode.medium;
 
-import com.sun.source.tree.Tree;
-
-import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class levelOrder_102 {
     public static class TreeNode {
@@ -39,18 +38,41 @@ public class levelOrder_102 {
         DFS(p.right, level + 1, ans);
     }
 
+    //借用辅助栈
+    public List<List<Integer>> levelOrder_2(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        if (root == null) return res;
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int count = queue.size(); //记录当前层的个数
+            List<Integer> list = new ArrayList<>();
+            while (count > 0) {
+                TreeNode node = queue.poll();
+                list.add(node.val); //当前层的节点加入该list
+                if (node.left != null)
+                    queue.add(node.left);
+                if (node.right != null)
+                    queue.add(node.right);
+                count--;
+            }
+            res.add(list);
+        }
+        return res;
+    }
+
 
     public static void main(String[] args) {
-        int[] t = {2,3,4,5};
+        int[] t = {2, 3, 4, 5};
         TreeNode t1 = new TreeNode(1);
         TreeNode t2 = new TreeNode(2);
         TreeNode t3 = new TreeNode(3);
-        TreeNode t4= new TreeNode(4);
-        TreeNode t5= new TreeNode(5);
-        t1.left=t2;
-        t1.right=t3;
-        t2.left=t4;
-        t2.right=t5;
+        TreeNode t4 = new TreeNode(4);
+        TreeNode t5 = new TreeNode(5);
+        t1.left = t2;
+        t1.right = t3;
+        t2.left = t4;
+        t2.right = t5;
 
         List<List<Integer>> ans = levelOrder(t1);
         System.out.println(ans);
