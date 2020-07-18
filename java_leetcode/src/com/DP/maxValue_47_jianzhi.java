@@ -5,7 +5,7 @@ package com.DP;
  * 你可以从棋盘的左上角开始拿格子里的礼物，并每次向右或者向下移动一格、直到到达棋盘的右下角。
  * 给定一个棋盘及其上面的礼物的价值，请计算你最多能拿到多少价值的礼物？
  **/
-public class maxValue_47 {
+public class maxValue_47_jianzhi {
 
     //递推关系 f(i,j)=max[f(i,j−1),f(i−1,j)]+grid(i,j)
     public int maxValue(int[][] grid) {
