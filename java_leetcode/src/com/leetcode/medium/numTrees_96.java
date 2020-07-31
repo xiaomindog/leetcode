@@ -2,8 +2,10 @@ package com.leetcode.medium;
 
 //不同的二叉搜索树 卡特兰数
 public class numTrees_96 {
-    public int numTrees(int n) {
-        if (n<0) return 0;
+
+
+    public int numTrees_1(int n) {
+        if (n < 0) return 0;
         int dp[] = new int[1000];
         dp[0] = 1;
         dp[1] = 1;
@@ -17,4 +19,7 @@ public class numTrees_96 {
         return dp[n];
     }
 
+    public static void main(String[] args) {
+
+    }
 }

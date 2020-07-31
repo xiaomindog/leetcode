@@ -1,4 +1,4 @@
-package com.mianshijingdian;
+package com.BitManipulation;
 
 import java.util.HashSet;
 import java.util.Set;
