@@ -25,7 +25,6 @@ public class maxProfit_121 {
 	public static int mp2(int[] prices) {
 		if(prices.length<=0)
 			return 0;
-		int maxi_1 = 0;
 		int max = 0;
 		int id = prices[0];  //记录最小的价格
 		for(int i =1;i<prices.length;i++){
@@ -34,8 +33,7 @@ public class maxProfit_121 {
 				id = prices[i-1];
 			}
 			if(prices[i]-id>0){
-				maxi_1 = Math.max(max,prices[i]-id); // 第i天的价格-前i-1天中的最小价格
-				max = maxi_1;
+				max = Math.max(max,prices[i]-id); // 第i天的价格-前i-1天中的最小价格
 			}
 		}
 		return max;

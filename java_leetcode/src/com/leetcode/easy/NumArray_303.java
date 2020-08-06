@@ -1,7 +1,5 @@
 package com.leetcode.easy;
 
-import java.util.NavigableMap;
-
 public class NumArray_303 {
 
     private int[] sums;

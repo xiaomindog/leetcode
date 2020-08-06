@@ -19,7 +19,7 @@ public class permutation_38 {
         c = s.toCharArray();
         dfs(0);
         return ans.toArray(new String[ans.size()]);
-        //toArray()方法导出的是Object类型数组，而toArray([)T[] a)方法导出的是指定类型的数组。
+        //toArray()方法导出的是Object类型数组，而toArray(T[] a)方法导出的是指定类型的数组。
     }
 
     public void dfs(int x) {
