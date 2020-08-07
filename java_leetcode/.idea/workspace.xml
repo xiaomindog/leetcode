@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bd7335a-9d18-43e3-842a-b1f413224b2e" name="Default Changelist" comment="" />
+    <list default="true" id="8bd7335a-9d18-43e3-842a-b1f413224b2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/DP/lengthOfLIS_300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/eraseOverlapIntervals_435.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/findMinArrowShots_452.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/maxProfit_714.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/jianzhi/printListFromTailToHead_6$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/jianzhi/printListFromTailToHead_6$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/jianzhi/printListFromTailToHead_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/jianzhi/printListFromTailToHead_6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/MinStack_155.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/MinStack_155.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/NumArray_303.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/NumArray_303.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/levelOrder_102$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/levelOrder_102.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/maxProfit_121.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/maxProfit_121.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/rob_198.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/rob_198.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/findDuplicate_287.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/findDuplicate_287.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/reconstructQueue_406.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/reconstructQueue_406.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/removeKdigits_402.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/removeKdigits_402.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/wiggleMaxLength_376.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/wiggleMaxLength_376.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -20,18 +46,102 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
-    <configuration name="t" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="t" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.DP" />
+      <recent name="com.BitManipulation" />
+      <recent name="com.Backtrack" />
+      <recent name="com.Tree" />
+      <recent name="com.leetcode.medium" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.removeKdigits_402">
+    <configuration name="addStrings_415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.addStrings_415" />
       <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="canCompleteCircuit_134" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.canCompleteCircuit_134" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compressString_01_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mianshijingdian.compressString_01_06" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mianshijingdian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lengthOfLIS_300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.lengthOfLIS_300" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="removeKdigits_402" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.removeKdigits_402" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.t" />
+        <item itemvalue="Application.removeKdigits_402" />
+        <item itemvalue="Application.canCompleteCircuit_134" />
+        <item itemvalue="Application.lengthOfLIS_300" />
+        <item itemvalue="Application.addStrings_415" />
+        <item itemvalue="Application.compressString_01_06" />
       </list>
     </recent_temporary>
   </component>
@@ -47,6 +157,19 @@
       <updated>1586749850805</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="801" y="322" key="#Notifications" timestamp="1586749884319">
