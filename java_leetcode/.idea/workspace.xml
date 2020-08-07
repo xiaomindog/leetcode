@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd7335a-9d18-43e3-842a-b1f413224b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/DP/lengthOfLIS_300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/eraseOverlapIntervals_435.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/findMinArrowShots_452.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/maxProfit_714.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/reverse_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/jianzhi/printListFromTailToHead_6$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/jianzhi/printListFromTailToHead_6$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/jianzhi/printListFromTailToHead_6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/jianzhi/printListFromTailToHead_6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/MinStack_155.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/MinStack_155.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/NumArray_303.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/NumArray_303.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/levelOrder_102$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/levelOrder_102.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/maxProfit_121.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/maxProfit_121.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/rob_198.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/rob_198.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/findDuplicate_287.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/findDuplicate_287.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/reconstructQueue_406.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/reconstructQueue_406.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/removeKdigits_402.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/removeKdigits_402.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/wiggleMaxLength_376.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/wiggleMaxLength_376.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/addBinary_67.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/addBinary_67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/addBinary_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/addBinary_67.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,9 +56,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.removeKdigits_402">
-    <configuration name="addStrings_415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.addStrings_415" />
+  <component name="RunManager" selected="Application.reverse_7">
+    <configuration name="addBinary_67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.addBinary_67" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
@@ -89,19 +76,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="compressString_01_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianshijingdian.compressString_01_06" />
-      <module name="java_leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mianshijingdian.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,13 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="reverse_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.reverse_7" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reverse_7" />
+        <item itemvalue="Application.addBinary_67" />
         <item itemvalue="Application.removeKdigits_402" />
         <item itemvalue="Application.canCompleteCircuit_134" />
         <item itemvalue="Application.lengthOfLIS_300" />
-        <item itemvalue="Application.addStrings_415" />
-        <item itemvalue="Application.compressString_01_06" />
       </list>
     </recent_temporary>
   </component>
