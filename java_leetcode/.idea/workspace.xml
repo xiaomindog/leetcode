@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd7335a-9d18-43e3-842a-b1f413224b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/reverse_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/intersect_350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/intersection_349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/isPalindrome_125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/reverseString_344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/reverseVowels_345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/hard/maxSlidingWindow_239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/hard/minWindow_76.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/checkInclusion_567.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/fourSum_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/multiply_43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/partition_86.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/removeDuplicates_80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/rotateRight_61.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/sortColors_75.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/addBinary_67.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/addBinary_67.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/addBinary_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/addBinary_67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/isValid_20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/isValid_20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/reverse_7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/reverse_7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/isValid_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/isValid_20.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +70,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.reverse_7">
-    <configuration name="addBinary_67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.addBinary_67" />
+  <component name="RunManager" selected="Application.minWindow_76">
+    <configuration name="checkInclusion_567" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.checkInclusion_567" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="isPalindrome_125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.isPalindrome_125" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
@@ -70,51 +97,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="canCompleteCircuit_134" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.canCompleteCircuit_134" />
-      <module name="java_leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lengthOfLIS_300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.lengthOfLIS_300" />
-      <module name="java_leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="removeKdigits_402" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.removeKdigits_402" />
-      <module name="java_leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="reverse_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.reverse_7" />
+    <configuration name="isValid_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.isValid_20" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minWindow_76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hard.minWindow_76" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="removeDuplicates_80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.removeDuplicates_80" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.reverse_7" />
-        <item itemvalue="Application.addBinary_67" />
-        <item itemvalue="Application.removeKdigits_402" />
-        <item itemvalue="Application.canCompleteCircuit_134" />
-        <item itemvalue="Application.lengthOfLIS_300" />
+        <item itemvalue="Application.minWindow_76" />
+        <item itemvalue="Application.checkInclusion_567" />
+        <item itemvalue="Application.isValid_20" />
+        <item itemvalue="Application.isPalindrome_125" />
+        <item itemvalue="Application.removeDuplicates_80" />
       </list>
     </recent_temporary>
   </component>
