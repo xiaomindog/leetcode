@@ -1,4 +1,4 @@
-package com.leetcode.medium;
+package com.DP;
 
 public class uniquePathsWithObstacles_63 {
 

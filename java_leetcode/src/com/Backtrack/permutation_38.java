@@ -12,17 +12,17 @@ import java.util.Set;
 public class permutation_38 {
 
     //全排列
-    List<String> ans = new LinkedList<>();
-    char c[];
+    static List<String> ans = new LinkedList<>();
+    static char c[];
 
-    public String[] permutation(String s) {
+    public static String[] permutation(String s) {
         c = s.toCharArray();
         dfs(0);
         return ans.toArray(new String[ans.size()]);
         //toArray()方法导出的是Object类型数组，而toArray(T[] a)方法导出的是指定类型的数组。
     }
 
-    public void dfs(int x) {
+    public static void dfs(int x) {
         if (x == c.length - 1) {
             ans.add(String.valueOf(c));
             return;
@@ -37,10 +37,16 @@ public class permutation_38 {
         }
     }
 
-    void swap(int a, int b) {
+    static void swap(int a, int b) {
         char tmp = c[a];
         c[a] = c[b];
         c[b] = tmp;
     }
 
+    public static void main(String[] args) {
+        String[] s = permutation("abc");
+        for (String x:s){
+            System.out.println(x);
+        }
+    }
 }
