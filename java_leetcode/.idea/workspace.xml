@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd7335a-9d18-43e3-842a-b1f413224b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/combination_38_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/letterCombinations_17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DP/canPartition_416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DP/findTargetSumWays_494.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DP/uniquePathsWithObstacles_63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DP/waysToChange_08_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DP/waysToStep_08_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/closestValue_270.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/floodFill_733.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/hard/findMedianSortedArrays_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/hard/findMin_154.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/canPartition_416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/convert_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/countNumbersWithUniqueDigits_357.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/divide_29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/findMin_153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/findPeakElement_162.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/findTargetSumWays_494.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/letterCombinations_17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/matrixBlockSum_1314.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/searchMatrix_74.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/searchRange_34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/search_33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/search_81.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/pathWithObstacles_08_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/waysToChange_08_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/waysToStep_08_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/rangeBitwiseAnd_201.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/Backtrack/permutation_38.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/Backtrack/permutation_38.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/minDepth_111$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/minDepth_111$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/minDepth_111.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/minDepth_111.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/mySqrt_69.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/easy/mySqrt_69.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/hard/minWindow_76.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/hard/minWindow_76.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/uniquePathsWithObstacles_63.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/uniquePathsWithObstacles_63.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Backtrack/permutation_38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Backtrack/permutation_38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/minDepth_111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/minDepth_111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/mySqrt_69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/mySqrt_69.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/uniquePathsWithObstacles_63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/uniquePathsWithObstacles_63.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
