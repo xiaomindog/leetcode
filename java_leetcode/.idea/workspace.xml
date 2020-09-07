@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd7335a-9d18-43e3-842a-b1f413224b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/combinationSum2_40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/combinationSum3_216.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/combinationSum_39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/generateParenthesis_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/permuteUnique_47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/permute_44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DP/change_518.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DP/combinationSum4_377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/binaryTreePaths_257.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/change_518.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/combinationSum2_40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/combinationSum3_216.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/combinationSum4_377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/combinationSum_39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/generateParenthesis_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/getPermutation_60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/isValidSudoku_36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/nextPermutation_31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/permuteUnique_47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/permute_44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/swapPairs_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/generateMatrix_59.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/groupAnagrams_49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/merge_56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/rotate_48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/spiralOrder_54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/huawei_2021_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/huawei_2021_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/niuniu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/zhongxing_2021_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/permute_44.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/permute_44.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,22 +63,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.combinationSum2_40 (1)">
-    <configuration name="combinationSum2_40 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Backtrack.combinationSum2_40" />
-      <module name="java_leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Backtrack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="combinationSum2_40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.combinationSum2_40" />
+  <component name="RunManager" selected="Application.generateMatrix_59">
+    <configuration name="generateMatrix_59" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.generateMatrix_59" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="combinationSum3_216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.combinationSum3_216" />
+    <configuration name="groupAnagrams_49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.groupAnagrams_49" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +90,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="combinationSum4_377" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.combinationSum4_377" />
+    <configuration name="huawei_2021_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mianshijingdian.huawei_2021_1" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mianshijingdian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spiralOrder_54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.spiralOrder_54" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
@@ -127,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generateParenthesis_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.generateParenthesis_22" />
+    <configuration name="zhongxing_2021_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mianshijingdian.zhongxing_2021_1" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="PATTERN" value="com.mianshijingdian.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.combinationSum2_40 (1)" />
-        <item itemvalue="Application.generateParenthesis_22" />
-        <item itemvalue="Application.combinationSum4_377" />
-        <item itemvalue="Application.combinationSum2_40" />
-        <item itemvalue="Application.combinationSum3_216" />
+        <item itemvalue="Application.generateMatrix_59" />
+        <item itemvalue="Application.spiralOrder_54" />
+        <item itemvalue="Application.groupAnagrams_49" />
+        <item itemvalue="Application.huawei_2021_1" />
+        <item itemvalue="Application.zhongxing_2021_1" />
       </list>
     </recent_temporary>
   </component>
