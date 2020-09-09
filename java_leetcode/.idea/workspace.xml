@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bd7335a-9d18-43e3-842a-b1f413224b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/generateMatrix_59.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/groupAnagrams_49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/merge_56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/rotate_48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/spiralOrder_54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/huawei_2021_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/huawei_2021_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/niuniu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mianshijingdian/zhongxing_2021_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/combine_77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Backtrack/subsetsWithDup_90.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BitManipulation/subsets_78.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/combine_77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/deleteDuplicates_82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/exist_79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/setZeroes_72.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/simplifyPath_71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/subsetsWithDup_90.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/subsets_78.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/permute_44.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/leetcode/medium/permute_44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_leetcode/com/Backtrack/combination_38_.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_leetcode/com/Backtrack/combination_38_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Backtrack/combination_38_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Backtrack/combination_38_.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +47,8 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Backtrack" />
-      <recent name="com.DP" />
       <recent name="com.BitManipulation" />
+      <recent name="com.DP" />
       <recent name="com.Tree" />
       <recent name="com.leetcode.medium" />
     </key>
@@ -63,7 +65,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.generateMatrix_59">
+  <component name="RunManager" selected="Application.subsetsWithDup_90">
+    <configuration name="combine_77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.combine_77" />
+      <module name="java_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="generateMatrix_59" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.generateMatrix_59" />
       <module name="java_leetcode" />
@@ -77,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="groupAnagrams_49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.groupAnagrams_49" />
+    <configuration name="simplifyPath_71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.simplifyPath_71" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
@@ -90,21 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="huawei_2021_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianshijingdian.huawei_2021_1" />
-      <module name="java_leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mianshijingdian.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="spiralOrder_54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.spiralOrder_54" />
+    <configuration name="subsetsWithDup_90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.subsetsWithDup_90" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zhongxing_2021_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mianshijingdian.zhongxing_2021_1" />
+    <configuration name="subsets_78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.subsets_78" />
       <module name="java_leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mianshijingdian.*" />
+          <option name="PATTERN" value="com.leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.subsetsWithDup_90" />
+        <item itemvalue="Application.subsets_78" />
+        <item itemvalue="Application.simplifyPath_71" />
+        <item itemvalue="Application.combine_77" />
         <item itemvalue="Application.generateMatrix_59" />
-        <item itemvalue="Application.spiralOrder_54" />
-        <item itemvalue="Application.groupAnagrams_49" />
-        <item itemvalue="Application.huawei_2021_1" />
-        <item itemvalue="Application.zhongxing_2021_1" />
       </list>
     </recent_temporary>
   </component>

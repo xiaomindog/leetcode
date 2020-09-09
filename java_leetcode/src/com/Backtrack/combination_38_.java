@@ -7,6 +7,8 @@ import java.util.List;
 
 //剑指offer38题拓展： 字符串的组合
 public class combination_38_ {
+
+
     static List<String> list;
 
     public static List<String> combination(String s) {
