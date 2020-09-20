@@ -12,7 +12,7 @@ public class letterCombinations_17 {
 
     //递归回溯 时间复杂度
     List<String> res;
-    static Map<Character, String> phone = new HashMap<>() {{
+    static Map<Character, String> phone = new HashMap<Character, String>() {{
         put('2', "abc");
         put('3', "def");
         put('4', "ghi");
