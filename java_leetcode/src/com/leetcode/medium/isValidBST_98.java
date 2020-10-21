@@ -16,8 +16,9 @@ public class isValidBST_98 {
     //利用二叉搜索树的特性 中序遍历有序序列
     //int preVal = Integer.MIN_VALUE; // 这个会有测试点不过
     long preVal = Long.MIN_VALUE;
+
     public boolean isValidBST(TreeNode root) {
-        if (root==null)return true;
+        if (root == null) return true;
         boolean left = isValidBST(root.left);
         if (left == false || root.val <= preVal) {
             return false;
@@ -26,4 +27,5 @@ public class isValidBST_98 {
         boolean right = isValidBST(root.right);
         return right;
     }
+
 }

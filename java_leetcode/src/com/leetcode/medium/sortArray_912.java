@@ -31,7 +31,7 @@ public class sortArray_912 {
         return i;
     }
 
-    public void qSort(int[] nums, int left, int right) {
+    void qSort(int[] nums, int left, int right) {
         if (left >= right) return;
         int p = partition(nums, left, right);
         qSort(nums, left, p - 1);
@@ -67,4 +67,35 @@ public class sortArray_912 {
         }
         return nums;
     }
+
+    //归并
+    public int[] sortArray_4(int[] nums) {
+        int[] temp = new int[nums.length];
+        mergeSort(nums, 0, nums.length - 1, temp);
+        return nums;
+    }
+
+    void mergeSort(int[] nums, int left, int right, int[] temp) {  // 需要左右边界确定排序范围
+        if (left >= right) return;
+        int mid = (left + right) / 2;
+        // 先对左右子数组进行排序
+        mergeSort(nums, left, mid, temp);
+        mergeSort(nums, mid + 1, right, temp);
+
+        //把当前数组拷贝到临时数组去
+        for (int m = left; m <= right; m++) {
+            temp[m] = nums[m];
+        }
+
+        int i = left, j = mid + 1;
+        int cur = i;
+        while (i <= mid && j <= right) {  // 开始合并数组
+            if (temp[i] <= temp[j]) nums[cur] = temp[i++];
+            else nums[cur] = temp[j++];
+            cur++;
+        }
+        while (i <= mid) nums[cur++] = temp[i++];
+        while (j <= right) nums[cur++] = temp[j++];
+    }
+
 }

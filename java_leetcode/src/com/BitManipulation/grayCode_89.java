@@ -1,4 +1,4 @@
-package com.leetcode.medium;
+package com.BitManipulation;
 
 import java.util.ArrayList;
 import java.util.List;
